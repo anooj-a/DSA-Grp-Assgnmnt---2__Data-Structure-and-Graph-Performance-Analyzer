@@ -20,13 +20,13 @@ performance (steps and time) of different algorithms.
 Student Name:              MS. Anooj Ahamed
 Student ID:                23DA2 - 0963
 Assigned Responsibility:   Linked list, ReadMe file
-Individual Contribution:   Leader, DSA Learning & teaching to teamates, Video Editing, Directing and QA & QC
+Individual Contribution:   Leader, DSA Learning & teaching to teammates, Video Editing, Directing and QA & QC
 - 
 
 Student Name:              MN. Musab Ahamed
 Student ID:                23DA2 - 0531
 Assigned Responsibility:   Stack & queue implementation, Graph
-Individual Contribution:   Guidance & Verification
+Individual Contribution:   Guidance, Verification and Learning about Graph
 - 
 
 Student Name:              MN. Afraj Ahamath
