@@ -11,9 +11,11 @@ public class Main {
 
         int choice;
         do {
-            System.out.println("\n=============================================");
-            System.out.println("    DATA STRUCTURE & GRAPH ANALYZER");
-            System.out.println("=============================================");
+            System.out.println("\n\n===== CIT300 Data Structures and Algortihms (2C) =====");
+            System.out.println("\t\t== ** Byte Builders ** ==");
+            System.out.println("\n======================================================");
+            System.out.println("\t    DATA STRUCTURE & GRAPH ANALYZER");
+            System.out.println("======================================================\n");
             System.out.println("1. Array Operations");
             System.out.println("2. Stack Operations");
             System.out.println("3. Queue Operations");
@@ -23,7 +25,7 @@ public class Main {
             System.out.println("7. Performance Comparison");
             System.out.println("8. Display All Results");
             System.out.println("9. Exit");
-            choice = InputHelper.readInt("Enter your choice: ");
+            choice = InputHelper.readInt("\nEnter your choice: ");
 
             switch (choice) {
                 case 1:
