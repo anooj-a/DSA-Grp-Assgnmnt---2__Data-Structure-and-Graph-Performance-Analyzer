@@ -41,9 +41,11 @@ public class ArrayOperations {
 
     public void display() {
         if (size == 0) {
+            System.out.println();
             System.out.println("Array is empty!");
             return;
         }
+        System.out.println();
         System.out.print("Array: [ ");
         for (int i = 0; i < size; i++) {
             System.out.print(data[i] + " ");
@@ -68,17 +70,18 @@ public class ArrayOperations {
         SearchOperations searcher = new SearchOperations();
         int choice;
         do {
-            System.out.println("\n--------------- ARRAY OPERATIONS ---------------");
+            System.out.println("\n--------------- ARRAY OPERATIONS ---------------\n");
             System.out.println("1. Insert");
             System.out.println("2. Delete");
             System.out.println("3. Search");
             System.out.println("4. Display");
             System.out.println("5. Return to Main Menu");
-            choice = InputHelper.readInt("Enter your choice: ");
+            choice = InputHelper.readInt("\nEnter your choice: ");
+            System.out.println();
 
             switch (choice) {
                 case 1:
-                    int value = InputHelper.readInt("Enter value: ");
+                    int value = InputHelper.readInt("\nEnter value: ");
                     int pos = InputHelper.readInt("Enter position (0 to " + size + "): ");
                     insert(value, pos);
                     break;
