@@ -43,13 +43,14 @@ public class SearchOperations {
     public void menu(ArrayOperations arrayOps) {
         int choice;
         do {
-            System.out.println("\n------------- SEARCHING OPERATIONS -------------");
-            System.out.println("(Uses the numbers from Array Operations)");
+            System.out.println("\n------------- SEARCHING OPERATIONS -------------\n");
+            System.out.println("(Uses the numbers from Array Operations)\n");
             System.out.println("1. Linear Search");
             System.out.println("2. Binary Search");
             System.out.println("3. Compare Linear and Binary Search");
             System.out.println("4. Return to Main Menu");
-            choice = InputHelper.readInt("Enter your choice: ");
+            choice = InputHelper.readInt("\nEnter your choice: ");
+            System.out.println();
 
             if (choice >= 1 && choice <= 3) {
                 if (arrayOps.getSize() == 0) {

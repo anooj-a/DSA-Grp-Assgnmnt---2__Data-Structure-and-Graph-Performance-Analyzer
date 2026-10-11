@@ -48,13 +48,14 @@ public class MyStack {
     public void menu() {
         int choice;
         do {
-            System.out.println("\n--------------- STACK OPERATIONS ---------------");
+            System.out.println("\n--------------- STACK OPERATIONS ---------------\n");
             System.out.println("1. Push");
             System.out.println("2. Pop");
             System.out.println("3. Peek");
             System.out.println("4. Display");
             System.out.println("5. Return to Main Menu");
-            choice = InputHelper.readInt("Enter your choice: ");
+            choice = InputHelper.readInt("\nEnter your choice: ");
+            System.out.println();
 
             switch (choice) {
                 case 1:

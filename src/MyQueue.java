@@ -52,13 +52,14 @@ public class MyQueue {
     public void menu() {
         int choice;
         do {
-            System.out.println("\n--------------- QUEUE OPERATIONS ---------------");
+            System.out.println("\n--------------- QUEUE OPERATIONS ---------------\n");
             System.out.println("1. Enqueue");
             System.out.println("2. Dequeue");
             System.out.println("3. Peek / Front");
             System.out.println("4. Display");
             System.out.println("5. Return to Main Menu");
-            choice = InputHelper.readInt("Enter your choice: ");
+            choice = InputHelper.readInt("\nEnter your choice: ");
+            System.out.println();
 
             switch (choice) {
                 case 1:

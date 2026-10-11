@@ -110,7 +110,7 @@ public class Graph {
     public void menu() {
         int choice;
         do {
-            System.out.println("\n--------------- GRAPH OPERATIONS ---------------");
+            System.out.println("\n--------------- GRAPH OPERATIONS ---------------\n");
             System.out.println("1. Add Vertex");
             System.out.println("2. Add Edge");
             System.out.println("3. Display Graph");
@@ -118,7 +118,8 @@ public class Graph {
             System.out.println("5. DFS Traversal");
             System.out.println("6. Search Vertex");
             System.out.println("7. Return to Main Menu");
-            choice = InputHelper.readInt("Enter your choice: ");
+            choice = InputHelper.readInt("\nEnter your choice: ");
+            System.out.println();
 
             switch (choice) {
                 case 1:
